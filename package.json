@@ -1,6 +1,6 @@
 {
   "name": "neat-commit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "postinstall": "husky install"
@@ -16,5 +16,8 @@
   "devDependencies": {
     "husky": "^9.1.7",
     "prettier": "^3.4.2"
+  },
+  "peerDependencies": {
+    "husky": "^9.1.7"
   }
 }
