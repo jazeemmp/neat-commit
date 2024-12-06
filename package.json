@@ -1,0 +1,16 @@
+{
+  "name": "neat-commit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "keywords": ["git", "prettier", "formatting", "husky", "commit","neat-commit","clean"],
+  "author": "mpjazeem@gmail.com",
+  "license": "ISC",
+  "description": "Automatically formats code using Prettier before committing with Git.",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "prettier": "^3.4.2"
+  }
+}
